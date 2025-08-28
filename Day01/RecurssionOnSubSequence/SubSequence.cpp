@@ -23,10 +23,10 @@ void subSequence(int arr[], int index, int n, vector<vector<int>> &ans, vector<i
 
 int main()
 {
-    int arr[] = {1, 2};
+    int arr[] = {1, 2, 3};
     vector<vector<int>> ans;
     vector<int> temp;
-    subSequence(arr, 0, 2, ans, temp);
+    subSequence(arr, 0, 3, ans, temp);
     for (int i = 0; i < ans.size(); i++)
     {
         for (int j = 0; j < ans[i].size(); j++)
