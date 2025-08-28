@@ -16,7 +16,7 @@ void storeSubset(string ans, string original, vector<string>& v) {
 int main() {
     string str = "abc";
     vector<string> v;
-    cout << str.substr(1);
+    cout << str.substr(0);
     cout << endl;
     storeSubset("", str, v);
     for(int i = 0; i < v.size(); i++) {
