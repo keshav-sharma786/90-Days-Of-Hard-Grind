@@ -1,8 +1,7 @@
-// My First React Code.
-// How can we create a h1 tag inside the React.
-// this empty object is basically the place where you will give attributes to your tags.
-// third argument is basically the childern of that tag/react element that we are basically creating with the help of the React.createElement
-// Nested Elements.
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement(
     "div",
@@ -10,7 +9,7 @@ const parent = React.createElement("div", { id: "parent" }, [
     // for giving more than 2 children, you have to convert React.createElement into an array.siblings
     // i wanted to have both h1 and h2 tags as siblings.
     [
-      React.createElement("h1", {}, "I am an h1 tag"),
+      React.createElement("h1", {}, "This is Namaste React 🚀"),
       React.createElement("h2", {}, "I am a h2 tag"),
     ]
   ),
